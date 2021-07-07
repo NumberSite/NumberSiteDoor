@@ -1,0 +1,405 @@
+@media (min-width:1450px) {
+  .header .head {
+    width: 1200px
+  }
+
+  .head-right .icon-btn {
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px
+  }
+
+  .head-right .icon-btn span {
+    font-size: 16px
+  }
+
+  .head-right .icon-btn img {
+    width: 18px;
+    height: 18px
+  }
+
+  .app .body {
+    width: 1200px
+  }
+
+  .blank {
+    height: 30px
+  }
+
+  .banner img {
+    width: 1200px
+  }
+
+  .bitem-box ul {
+    height: 107px;
+    margin-right: 140px
+  }
+
+  .bitem-box ul li .li-top {
+    height: 70px
+  }
+
+  .bitem-box ul li .li-bottom {
+    height: 37px;
+    line-height: 37px;
+    font-size: 14px
+  }
+
+  .bitem-box ul li .li-top .li-icon-text {
+    width: 108px;
+    padding: 25px 0
+  }
+
+  .bitem-right {
+    height: 107px;
+    width: 140px
+  }
+
+  .bitem-right .icon-text span {
+    font-size: 16px;
+    width: 64px
+  }
+
+  .bitem-right .icon-text {
+    margin: 43.5px 25.5px
+  }
+
+  .bitem-box ul li .li-top .li-icon-text img {
+    width: 20px;
+    height: 20px
+  }
+
+  .bitem-box ul li .li-top .li-icon-text span {
+    width: 80px;
+    font-size: 16px
+  }
+
+  .href-item-head {
+    font-size: 16px
+  }
+
+  .href-item-box {
+    padding: 22px 15px 26px 15px
+  }
+
+  .href-item-list .item {
+    width: 145px;
+    line-height: 20px;
+    margin-top: 24px
+  }
+
+  .href-item-list .item img {
+    width: 20px;
+    height: 20px
+  }
+
+  .href-item-list .item span {
+    font-size: 15px
+  }
+
+  .item-body .item-it .it-box {
+    width: 340px
+  }
+
+  .it-box .right-text h4 {
+    font-size: 14px;
+    margin-top: 7px
+  }
+
+  .it-box .right-text p {
+    font-size: 16px
+  }
+
+  .item-body .item-it .it-box img {
+    width: 65px;
+    height: 65px
+  }
+
+  .item-body .item-it .it-box .right-text {
+    height: 65px;
+    margin-left: 80px;
+    overflow: hidden
+  }
+
+  .item-body .item-it .it-box.left10 .right-text {
+    margin-left: 90px
+  }
+
+  .blank2 {
+    height: 20px
+  }
+
+  .erm {
+    width: 160px;
+    height: 259px;
+    margin-top: -130px
+  }
+
+  .erm>img {
+    width: 160px;
+    height: 259px;
+    display: block
+  }
+}
+
+@media (max-width:750px) {
+  body {
+    background-image: none
+  }
+
+  body::after {
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: '';
+    background-image: url(./bg@2x.jpg?v=20190722135623);
+    background-position: center;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1
+  }
+
+  .header {
+    display: none
+  }
+
+  .m-bitem-btns,
+  .m-bitem-title,
+  .m-header {
+    display: block
+  }
+
+  .m-header .m-nav {
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    margin: 6px 10px
+  }
+
+  .m-nav-right {
+    float: right
+  }
+
+  .m-nav-iconbtn {
+    height: 16px;
+    float: left;
+    overflow: hidden;
+    margin-left: 10px
+  }
+
+  .m-nav-iconbtn img {
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    float: left
+  }
+
+  .m-nav-iconbtn span {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #333
+  }
+
+  .m-logo {
+    margin: 5px 0
+  }
+
+  .m-logo img {
+    display: block;
+    margin: 0 auto;
+    width: 115px;
+    height: 46.5px
+  }
+
+  .m-header>p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #0a59bd
+  }
+
+  .app .body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px
+  }
+
+  .banner img {
+    width: 100%
+  }
+
+  .bitem-box {
+    background-color: rgba(255, 255, 255, .6);
+    margin: 0 10px;
+    box-shadow: 0 0 7px #ddd;
+    border-radius: 6px;
+    padding: 10px 5px
+  }
+
+  .bitem-box ul {
+    margin-right: 0;
+    height: auto;
+    overflow: hidden
+  }
+
+  .bitem-box .m-bitem-title {
+    text-align: center
+  }
+
+  .bitem-right {
+    display: none
+  }
+
+  .bitem-box ul li {
+    width: 48.5%;
+    margin-right: 1.5%;
+    margin-top: 15px
+  }
+
+  .bitem-box ul li.m-li-item {
+    margin-right: 0;
+    margin-left: 1.5%
+  }
+
+  .bitem-right {
+    height: 90px
+  }
+
+  .bitem-box ul li .li-top {
+    height: 56px;
+    border-radius: 4px 4px 0 0
+  }
+
+  .bitem-box ul li .li-bottom {
+    border-radius: 0 0 4px 4px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    font-weight: 700
+  }
+
+  .bitem-box ul li {
+    border-radius: 4px
+  }
+
+  .bitem-box ul li .li-top .li-icon-text {
+    width: 98px;
+    padding: 20px 0
+  }
+
+  .bitem-box ul li .li-top .li-icon-text img {
+    width: 18px;
+    height: 18px
+  }
+
+  .bitem-box ul li .li-top .li-icon-text span {
+    width: 72px;
+    font-size: 14px
+  }
+
+  .m-bitem-btns {
+    text-align: center;
+    overflow: hidden;
+    padding: 25px 0 15px 0
+  }
+
+  .m-bitem-btns .btns-span {
+    width: 50%;
+    float: left
+  }
+
+  .m-bitem-btns button {
+    width: 108px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 50px;
+    background-color: #002fa5;
+    color: #fff
+  }
+
+  .m-bitem-btns .m-reload {
+    background-color: #d30000
+  }
+
+  .href-item-box {
+    margin: 0 10px
+  }
+
+  .href-item-list .item {
+    width: 50%;
+    line-height: 20px
+  }
+
+  .href-item-list .item img {
+    width: 20px;
+    height: 20px
+  }
+
+  .href-item-list .item span {
+    font-size: 14px
+  }
+
+  .item-body .item-it {
+    width: 100%;
+    margin-bottom: 20px
+  }
+
+  .item-body .item-it.m-nomargin {
+    margin-bottom: 0
+  }
+
+  .item-body .item-it .it-box.left10 img {
+    left: 0
+  }
+
+  .item-body .item-it .it-box {
+    width: 90%
+  }
+
+  .hijack img {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    display: block
+  }
+
+  .item-body .item-it .it-box.left10 .right-text {
+    margin-left: 60px
+  }
+
+  .hijack p {
+    line-height: 40px
+  }
+
+  .hijack-padding {
+    padding: 10px
+  }
+
+  .tabs-box {
+    margin: 0 10px;
+    overflow-x: auto;
+    overflow-y: hidden
+  }
+
+  .fpbbtn,
+  .hidden,
+  .m-banner {
+    display: block !important
+  }
+
+  .blank0 {
+    height: 0
+  }
+
+  .erm,
+  .href-item-box,
+  .pc-banner,
+  .smxi {
+    display: none
+  }
+}

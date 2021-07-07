@@ -1,0 +1,410 @@
+body {
+  background-image: none
+}
+
+body::after {
+  position: fixed;
+  top: 0;
+  left: 0;
+  content: '';
+  background-image: url(./bg@2x.jpg?v=20190722135623);
+  background-position: center;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1
+}
+
+.header {
+  display: none
+}
+
+.m-bitem-btns,
+.m-bitem-title,
+.m-header {
+  display: block
+}
+
+.m-header {
+  height: 50px;
+  background: #E0463D;
+}
+
+.m-nav-left {
+  float: left;
+  margin-left: 12px;
+}
+
+.m-nav-right {
+  float: right;
+  margin-right: 12px;
+}
+
+.m-nav-iconbtn {
+  line-height: 50px;
+  overflow: hidden;
+}
+
+.m-nav-iconbtn img {
+  width: 13px;
+  height: 13px;
+}
+
+.m-nav-iconbtn span {
+  font-size: 13px;
+  margin-left: 3px;
+  color: #fff;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.m-logo {
+  margin: 0 auto;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 25px;
+  /* width: 85px; */
+}
+
+.m-logo img {
+  width: 100%;
+  /* height: 34px */
+}
+
+.m-header>p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0a59bd
+}
+
+.app .body {
+  /* width: 100%;
+  min-width: 320px;
+  max-width: 640px; */
+  padding: 13px;
+}
+
+.banner img {
+  width: 100%
+}
+
+.bitem-box {
+  background-color: rgba(255, 255, 255, .6);
+  /* margin: 0 10px; */
+  box-shadow: 0 0 7px #ddd;
+  border-radius: 6px;
+  padding: 10px 5px
+}
+
+.bitem-box ul {
+  margin-right: 0;
+  height: auto;
+  overflow: hidden;
+  margin-top: 13px;
+}
+
+.bitem-box .m-bitem-title {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bitem-box .m-bitem-title img {
+  width: 16px;
+  margin-left: 12px;
+}
+
+.bitem-right {
+  display: none
+}
+
+.bitem-box ul {
+  padding: 0 20px;
+}
+
+.bitem-box ul li {
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 129, 118, 1);
+  border-radius: 20px;
+}
+
+.bitem-box ul li:last-child {
+  margin-bottom: 0;
+}
+
+.bitem-box ul li.active {
+  background: #EE4D43;
+}
+
+/* .bitem-box ul li.m-li-item {
+  margin-right: 0;
+  margin-left: 1.5%
+} */
+
+.bitem-right {
+  height: 90px
+}
+
+.bitem-box ul li .li-bottom {
+  border-radius: 0 0 4px 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.bitem-box ul li .li-bottom .speed {
+  vertical-align: middle;
+}
+
+.bitem-box ul li .li-bottom img {
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+
+.bitem-box ul li a {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  height: 39px;
+  cursor: pointer;
+  color: #FF8176;
+}
+
+.bitem-box ul li.active a {
+  color: #fff;
+}
+
+.bitem-box ul li .li-icon-text {
+  text-align: center;
+  /* padding: 20px 0; */
+  float: left;
+  border-radius: 5px;
+  margin-right: 15px;
+
+}
+
+.m-bitem-btns {
+  text-align: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.m-bitem-btns button {
+  width: 100%;
+  height: 40px;
+  line-height: 32px;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 20px;
+  background-color: #EE4D43;
+  color: #fff;
+
+}
+
+.m-bitem-btns button span {
+  vertical-align: middle;
+}
+
+.m-bitem-btns button img {
+  width: 17.5px;
+  margin-right: 6px;
+}
+
+.tip-text {
+  color: #333;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.tab-container {
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.tab-container .tab-nav .tab-nav-title {
+  width: 100px;
+  display: block;
+  text-align: center;
+  border-right: 1px solid #989898;
+  margin: 25px 0 16px 0;
+  font-size: 14px;
+  color: #989898;
+  font-weight: 400;
+}
+
+.tab-container .tab-nav:last-child .tab-nav-title {
+  border-right: 0;
+}
+
+.tab-container .tab-nav .tab-content {
+  position: absolute;
+  height: 255px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 7px #ddd;
+  border-radius: 6px;
+}
+
+.tab-content h3 {
+  padding: 13.5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.tab-content h3 img {
+  width: 15px;
+}
+
+.tab-content h3 span {
+  vertical-align: middle;
+}
+
+.tab-item-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab-item-content a {
+  width: 25%;
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.tab-item-content a img {
+  display: block;
+  margin: 0 auto;
+  width: 21px;
+  height: 21px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-container .tab-nav.active .tab-content {
+  display: block;
+}
+
+.tab-container .tab-nav.active .tab-nav-title {
+  color: #333;
+  font-weight: bold;
+}
+
+.href-item-box {
+  background: #fff;
+  box-shadow: 0 0 7px #ddd;
+  border-radius: 6px;
+  margin-top: 280px;
+}
+
+.href-item-head {
+  padding: 12.5px;
+  color: #333;
+  font-size: 14px;
+}
+
+.href-item-head img {
+  width: 16px;
+}
+
+.item-body {
+  padding: 25px;
+}
+
+.item-body .item-it {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.item-body .item-it:last-child {
+  margin-bottom: 0;
+}
+
+.item-body .item-it img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.hijack img {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  display: block
+}
+
+.item-body .item-it .right-text {
+  margin-left: 23px;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 68px;
+}
+
+.download-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, .7);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.download-container .logo {
+  width: 39px;
+  height: 39px;
+  border-radius: 10px;
+}
+
+.download-container span {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.download-container .m-fanjiec {
+  position: absolute;
+  right: 10px;
+  height: 30px;
+  /* width: 95px; */
+  border: 0;
+  background: #E0463D;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.download-container .m-fanjiec img {
+  width: 16px;
+}
+
+.download-container .m-fanjiec span {
+  vertical-align: middle;
+}
