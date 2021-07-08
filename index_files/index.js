@@ -1,7 +1,7 @@
 var t, fastest, fastest1, tim = 0,
   arr = [],
   atim = 0,
-  address = ['https://www.baidu.com', 'https://www.5372022.com', 'https://www.5372023.com', 'https://www.5372023.com', 'https://www.5372025.com']
+  address = ['https://www.5372021.com', 'https://www.5372021.com', 'https://www.5372010.com', 'https://www.5372010.com', 'https://www.5372030.com']
 
 function Index() {
   this.lis = $('.bitem-box ul li a'), this.speed = $('.li-bottom>.speed'), this.init()
